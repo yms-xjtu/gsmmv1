@@ -92,3 +92,17 @@ Adversarial finding:
 Decision:
 
 The N2 boundary remains a defensible v1.14 candidate edit, but the model is not yet ready for publication claims about minimal nitrogen-fixing growth. The next cycle should audit methionine biosynthesis/sulfur metabolism and distinguish true experimental medium supplements from model gaps.
+
+## Cycle 13 Summary
+
+Audited the methionine module under strict ammonium-acetate conditions after closing all nitrogen-containing uptake boundaries.
+
+Finding:
+
+- Methionine, homocysteine, cystathionine, and cysteine have zero net production capacity.
+- Homoserine and O-acetyl/O-succinyl-homoserine precursors are producible.
+- Sulfate is available, but reduced sulfur assimilation into cysteine/H2S/methionine appears blocked under the strict condition.
+
+Decision:
+
+Do not treat methionine uptake as a model fix. It is currently a diagnostic rescue and possible medium supplement. The next iteration should resolve sulfur assimilation and methionine biosynthesis with gene/literature evidence before claiming minimal-medium nitrogen-fixing growth.

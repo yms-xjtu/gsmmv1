@@ -1,0 +1,10 @@
+metabolite_id	name	formula	demand_status	max_net_production_under_strict_ammonium_acetate
+cpd00060[c0]	L-Methionine_c0	C5H11NO2S	optimal	0.0
+cpd00135[c0]	Homocysteine_c0	C4H9NO2S	optimal	0.0
+cpd00424[c0]	Cystathionine_c0	C7H14N2O4S	optimal	0.0
+cpd19019[c0]	L-Cystathionine_c0	C7H14N2O4S	optimal	0.0
+cpd00790[c0]	O-Acetyl-L-homoserine_c0	C6H11NO4	optimal	0.653333333333333
+cpd00822[c0]	O-Succinyl-L-homoserine_c0	C8H12NO6	optimal	0.48999999999999955
+cpd00227[c0]	L-Homoserine_c0	C4H9NO3	optimal	0.98
+cpd00084[c0]	L-Cysteine_c0	C3H7NO2S	optimal	0.0
+cpd00048[c0]	Sulfate_c0	O4S	optimal	100.00000000000003
