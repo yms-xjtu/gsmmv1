@@ -1,49 +1,169 @@
-carbon	nitrogen_regime	reaction_id	minimum	maximum	fraction_of_optimum
-acetate	ammonium_open	bio1	6.311175586331151	7.012417318145683	0.9
-acetate	ammonium_open	EX_cpd11640_e0	0.0	17.896034090908177	0.9
-acetate	ammonium_open	rxn06874_c0	0.0	0.0	0.9
-acetate	ammonium_open	rxn05759_c0	0.0	17.896034090908792	0.9
-acetate	ammonium_open	rxn00018_c0	41.04277766467457	186.47247107017185	0.9
-acetate	ammonium_open	rxn01111_c0	41.04277766467383	186.47247107017816	0.9
-acetate	ammonium_closed	bio1	6.311175586331151	7.012417318145683	0.9
-acetate	ammonium_closed	EX_cpd11640_e0	0.0	17.896034090909712	0.9
-acetate	ammonium_closed	rxn06874_c0	0.0	0.0	0.9
-acetate	ammonium_closed	rxn05759_c0	0.0	17.896034090908174	0.9
-acetate	ammonium_closed	rxn00018_c0	41.04277766467457	186.47247107016824	0.9
-acetate	ammonium_closed	rxn01111_c0	41.04277766467457	186.47247107017816	0.9
-succinate	ammonium_open	bio1	6.39441885142684	7.1049098349186375	0.9
-succinate	ammonium_open	EX_cpd11640_e0	0.0	18.132079545453077	0.9
-succinate	ammonium_open	rxn06874_c0	0.0	0.0	0.9
-succinate	ammonium_open	rxn05759_c0	0.0	18.132079545452658	0.9
-succinate	ammonium_open	rxn00018_c0	47.44447144247037	194.78576130463966	0.9
-succinate	ammonium_open	rxn01111_c0	47.44447144247286	194.78576130464185	0.9
-succinate	ammonium_closed	bio1	6.39441885142684	7.1049098349186375	0.9
-succinate	ammonium_closed	EX_cpd11640_e0	0.0	18.132079545453077	0.9
-succinate	ammonium_closed	rxn06874_c0	0.0	0.0	0.9
-succinate	ammonium_closed	rxn05759_c0	0.0	18.132079545452658	0.9
-succinate	ammonium_closed	rxn00018_c0	47.44447144247037	194.78576130464072	0.9
-succinate	ammonium_closed	rxn01111_c0	47.44447144247286	194.78576130462866	0.9
-butyrate	ammonium_open	bio1	6.820806147770731	7.578673497523057	0.9
-butyrate	ammonium_open	EX_cpd11640_e0	0.0	19.341147727273306	0.9
-butyrate	ammonium_open	rxn06874_c0	0.0	0.0	0.9
-butyrate	ammonium_open	rxn05759_c0	0.0	19.34114772727069	0.9
-butyrate	ammonium_open	rxn00018_c0	46.64611088832715	200.41642612224842	0.9
-butyrate	ammonium_open	rxn01111_c0	46.64611088832715	200.41642612223205	0.9
-butyrate	ammonium_closed	bio1	6.820806147770731	7.578673497523057	0.9
-butyrate	ammonium_closed	EX_cpd11640_e0	0.0	19.341147727273306	0.9
-butyrate	ammonium_closed	rxn06874_c0	0.0	0.0	0.9
-butyrate	ammonium_closed	rxn05759_c0	0.0	19.341147727273306	0.9
-butyrate	ammonium_closed	rxn00018_c0	46.64611088832715	200.41642612223205	0.9
-butyrate	ammonium_closed	rxn01111_c0	46.64611088832383	200.41642612224845	0.9
-fumarate	ammonium_open	bio1	6.23008032769078	6.92231147521193	0.9
-fumarate	ammonium_open	EX_cpd11640_e0	0.0	17.66607954545327	0.9
-fumarate	ammonium_open	rxn06874_c0	0.0	0.0	0.9
-fumarate	ammonium_open	rxn05759_c0	0.0	17.66607954545295	0.9
-fumarate	ammonium_open	rxn00018_c0	41.95106789732012	185.51849161778276	0.9
-fumarate	ammonium_open	rxn01111_c0	41.951067897320115	185.5184916177801	0.9
-fumarate	ammonium_closed	bio1	6.23008032769078	6.92231147521193	0.9
-fumarate	ammonium_closed	EX_cpd11640_e0	0.0	17.66607954545295	0.9
-fumarate	ammonium_closed	rxn06874_c0	0.0	0.0	0.9
-fumarate	ammonium_closed	rxn05759_c0	0.0	17.6660795454511	0.9
-fumarate	ammonium_closed	rxn00018_c0	41.95106789732012	185.5184916177801	0.9
-fumarate	ammonium_closed	rxn01111_c0	41.95106789731949	185.5184916177801	0.9
+model	carbon	nitrogen_regime	reaction_id	minimum	maximum	fraction_of_optimum
+baseline_v1.13	acetate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	78.3924166666673	0.9
+baseline_v1.13	acetate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_open_n2_closed	rxn05759_c0	0.0	78.39241666666761	0.9
+baseline_v1.13	acetate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.1500000000011	0.9
+baseline_v1.13	acetate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.15000000000094	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	78.39241666666673	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	rxn05759_c0	0.0	78.39241666666952	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.1500000000008	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.15000000000094	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	78.39241666666673	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	rxn05759_c0	0.0	78.39241666666952	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.1500000000008	0.9
+baseline_v1.13	acetate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.15000000000094	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	81.29691666666479	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	rxn05759_c0	0.0	81.29691666666841	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.7612499999998	0.9
+baseline_v1.13	succinate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.7612500000003	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	81.29691666666785	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	rxn05759_c0	0.0	81.29691666666672	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.7612499999992	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.7612500000003	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	81.29691666666785	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	rxn05759_c0	0.0	81.29691666666672	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.7612499999992	0.9
+baseline_v1.13	succinate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.7612500000003	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	91.13858333333658	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	rxn05759_c0	0.0	91.13858333333583	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.1500000000011	0.9
+baseline_v1.13	butyrate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.15000000000094	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	91.13858333332942	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	rxn05759_c0	0.0	91.1385833333345	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.1500000000008	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.14999999999986	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	91.13858333332942	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	rxn05759_c0	0.0	91.1385833333345	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.1499999999998	0.9
+baseline_v1.13	butyrate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.15000000000094	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	76.63691666666135	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	rxn05759_c0	0.0	76.63691666666948	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.76125	0.9
+baseline_v1.13	fumarate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.7612499999995	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	76.63691666666512	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	rxn05759_c0	0.0	76.63691666666753	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.7612499999997	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.7612500000004	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	76.63691666666512	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	rxn06874_c0	0.0	0.0	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	rxn05759_c0	0.0	76.63691666666753	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.7612499999997	0.9
+baseline_v1.13	fumarate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.7612500000004	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	78.3924166666673	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	rxn05759_c0	0.0	78.39241666666761	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.14999999999907	0.9
+candidate_n2_boundary	acetate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.15000000000043	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	78.39241666666673	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	rxn05759_c0	0.0	78.39241666666952	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.14999999999907	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.15000000000043	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	78.39241666666813	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	rxn06874_c0	0.0	18.664861111111403	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	rxn05759_c0	-18.664861111111247	78.39241666666966	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.1499999999999	0.9
+candidate_n2_boundary	acetate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.15000000000015	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	bio1	0.0	-3.8356125829406056e-34	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	EX_cpd11640_e0	0.0	78.35041666666699	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	rxn06874_c0	0.01	18.664861111111197	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	rxn05759_c0	-18.664861111111282	78.340416666667	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	rxn00018_c0	0.0	509.0725000000003	0.9
+candidate_n2_boundary	acetate	nitrogenase_forced_min_n2_open	rxn01111_c0	0.0	509.07249999999965	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	81.29691666666479	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	rxn05759_c0	0.0	81.29691666666841	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.7612499999998	0.9
+candidate_n2_boundary	succinate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.7612500000006	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	81.29691666666785	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	rxn05759_c0	0.0	81.29691666666672	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.7612499999992	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.7612500000006	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	81.29691666666837	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	rxn06874_c0	0.0	19.35640873015892	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	rxn05759_c0	-19.356408730158133	81.29691666666598	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.7612500000001	0.9
+candidate_n2_boundary	succinate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.76125	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	bio1	0.0	-5.3556487335650507e-20	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	EX_cpd11640_e0	0.0	81.25491666666775	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	rxn06874_c0	0.01	19.3564087301588	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	rxn05759_c0	-19.3564087301588	81.24491666666779	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	rxn00018_c0	0.0	509.68375	0.9
+candidate_n2_boundary	succinate	nitrogenase_forced_min_n2_open	rxn01111_c0	0.0	509.68375000000003	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	91.13858333333658	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	rxn05759_c0	0.0	91.13858333333583	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.14999999999907	0.9
+candidate_n2_boundary	butyrate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.15000000000043	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	91.13858333332942	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	rxn05759_c0	0.0	91.1385833333345	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.14999999999907	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.15000000000043	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	91.13858333333467	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	rxn06874_c0	0.0	21.699662698412993	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	rxn05759_c0	-21.699662698412773	91.13858333333764	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.1499999999999	0.9
+candidate_n2_boundary	butyrate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.15000000000015	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	bio1	0.0	1.5394810556172215e-32	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	EX_cpd11640_e0	0.0	91.09658333333479	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	rxn06874_c0	0.01	21.69966269841278	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	rxn05759_c0	-21.699662698412777	91.08658333333499	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	rxn00018_c0	0.0	509.0724999999998	0.9
+candidate_n2_boundary	butyrate	nitrogenase_forced_min_n2_open	rxn01111_c0	0.0	509.07249999999993	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	EX_cpd11640_e0	0.0	76.63691666666135	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	rxn05759_c0	0.0	76.63691666666948	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	rxn00018_c0	0.0	509.7612500000002	0.9
+candidate_n2_boundary	fumarate	ammonium_open_n2_closed	rxn01111_c0	0.0	509.7612500000005	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	bio1	0.0	0.0	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	EX_cpd11640_e0	0.0	76.63691666666512	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	rxn06874_c0	0.0	0.0	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	rxn05759_c0	0.0	76.63691666666753	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	rxn00018_c0	0.0	509.76125	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_closed	rxn01111_c0	0.0	509.7612500000005	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	bio1	0.0	0.0	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	EX_cpd11640_e0	0.0	76.63691666666952	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	rxn06874_c0	0.0	18.246884920635154	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	rxn05759_c0	-18.246884920635033	76.63691666666669	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	rxn00018_c0	0.0	509.76125	0.9
+candidate_n2_boundary	fumarate	ammonium_closed_n2_open	rxn01111_c0	0.0	509.7612500000002	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	bio1	0.0	2.3839868521082551e-32	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	EX_cpd11640_e0	0.0	76.59491666666736	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	rxn06874_c0	0.01	18.246884920636113	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	rxn05759_c0	-18.246884920636113	76.58491666666569	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	rxn00018_c0	0.0	509.68375	0.9
+candidate_n2_boundary	fumarate	nitrogenase_forced_min_n2_open	rxn01111_c0	-1.684152329684909e-34	509.6837499999994	0.9

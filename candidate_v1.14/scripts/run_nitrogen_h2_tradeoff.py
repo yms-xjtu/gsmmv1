@@ -6,7 +6,13 @@ from cobra.flux_analysis import flux_variability_analysis
 
 
 ROOT = Path(__file__).resolve().parents[2]
-MODEL = ROOT / "baseline" / "mymodel_CGA009_publishable_v1.13_lps_acp_acyltransferase_for_memote.xml"
+MODELS = {
+    "baseline_v1.13": ROOT / "baseline" / "mymodel_CGA009_publishable_v1.13_lps_acp_acyltransferase_for_memote.xml",
+    "candidate_n2_boundary": ROOT
+    / "candidate_v1.14"
+    / "candidate_model_n2_boundary"
+    / "mymodel_CGA009_candidate_v1.14_n2_boundary.xml",
+}
 OUT = ROOT / "candidate_v1.14" / "nitrogen_h2_tradeoff"
 
 CARBON_CONDITIONS = {
@@ -41,76 +47,118 @@ def switch_carbon(model: cobra.Model, exchange: str, uptake_lb: float) -> None:
     rxn.upper_bound = 0.0
 
 
-def set_nitrogen_regime(model: cobra.Model, regime: str) -> None:
+def reaction_contains_nitrogen(rxn: cobra.Reaction) -> bool:
+    for met in rxn.metabolites:
+        if met.elements.get("N", 0) > 0:
+            return True
+    return False
+
+
+def close_external_nitrogen_uptake(model: cobra.Model) -> list[str]:
+    closed = []
+    boundary_like = set(model.exchanges)
+    boundary_like.update(rxn for rxn in model.reactions if len(rxn.metabolites) == 1)
+    for rxn in boundary_like:
+        if rxn.lower_bound < 0 and reaction_contains_nitrogen(rxn):
+            rxn.lower_bound = 0.0
+            closed.append(rxn.id)
+    return sorted(closed)
+
+
+def set_nitrogen_regime(model: cobra.Model, regime: str) -> list[str]:
+    closed = close_external_nitrogen_uptake(model)
     if "EX_cpd00013_e0" in model.reactions:
         nh3 = model.reactions.get_by_id("EX_cpd00013_e0")
-        if regime == "ammonium_open":
+        if "ammonium_open" in regime:
             nh3.lower_bound = -100.0
             nh3.upper_bound = 100.0
-        elif regime == "ammonium_closed":
+        elif "ammonium_closed" in regime or "nitrogenase_forced_min" in regime:
             nh3.lower_bound = 0.0
             nh3.upper_bound = 100.0
+    if "EX_cpd00528_c0" in model.reactions:
+        n2 = model.reactions.get_by_id("EX_cpd00528_c0")
+        if "n2_open" in regime:
+            n2.lower_bound = -100.0
+            n2.upper_bound = 1000.0
+        else:
+            n2.lower_bound = 0.0
+            n2.upper_bound = 1000.0
     if "rxn06874_c0" in model.reactions:
         nif = model.reactions.get_by_id("rxn06874_c0")
-        if regime == "nitrogenase_forced_min":
+        if "nitrogenase_forced_min" in regime:
             nif.lower_bound = 0.01
+    return closed
 
 
 def main() -> int:
     cobra.Configuration().solver = "glpk"
     OUT.mkdir(parents=True, exist_ok=True)
-    base = cobra.io.read_sbml_model(str(MODEL))
-    base.solver = "glpk"
 
     rows = []
     fva_rows = []
-    regimes = ["ammonium_open", "ammonium_closed", "nitrogenase_forced_min"]
-    for carbon_name, (exchange, uptake_lb) in CARBON_CONDITIONS.items():
-        for regime in regimes:
-            with base as model:
-                model.solver = "glpk"
-                switch_carbon(model, exchange, uptake_lb)
-                set_nitrogen_regime(model, regime)
-                sol = model.optimize()
-                rows.append(
-                    {
-                        "carbon": carbon_name,
-                        "exchange": exchange,
-                        "uptake_lb": uptake_lb,
-                        "nitrogen_regime": regime,
-                        "status": sol.status,
-                        "objective_value": sol.objective_value,
-                        "h2_flux": sol.fluxes.get("EX_cpd11640_e0") if sol.status == "optimal" else "",
-                        "nitrogenase_flux": sol.fluxes.get("rxn06874_c0") if sol.status == "optimal" else "",
-                    }
-                )
-                if sol.status == "optimal":
-                    readouts = [rid for rid in READOUTS if rid in model.reactions]
-                    try:
-                        fva = flux_variability_analysis(model, reaction_list=readouts, fraction_of_optimum=0.9)
-                        for rid, row in fva.iterrows():
+    regimes = [
+        "ammonium_open_n2_closed",
+        "ammonium_closed_n2_closed",
+        "ammonium_closed_n2_open",
+        "nitrogenase_forced_min_n2_closed",
+        "nitrogenase_forced_min_n2_open",
+    ]
+    for model_label, model_path in MODELS.items():
+        base = cobra.io.read_sbml_model(str(model_path))
+        base.solver = "glpk"
+        has_n2_boundary = "EX_cpd00528_c0" in base.reactions
+        for carbon_name, (exchange, uptake_lb) in CARBON_CONDITIONS.items():
+            for regime in regimes:
+                with base as model:
+                    model.solver = "glpk"
+                    switch_carbon(model, exchange, uptake_lb)
+                    closed_nitrogen_uptake = set_nitrogen_regime(model, regime)
+                    sol = model.optimize()
+                    rows.append(
+                        {
+                            "model": model_label,
+                            "has_n2_boundary": has_n2_boundary,
+                            "closed_nitrogen_uptake_boundary_count": len(closed_nitrogen_uptake),
+                            "closed_nitrogen_uptake_boundaries": ";".join(closed_nitrogen_uptake),
+                            "carbon": carbon_name,
+                            "exchange": exchange,
+                            "uptake_lb": uptake_lb,
+                            "nitrogen_regime": regime,
+                            "status": sol.status,
+                            "objective_value": sol.objective_value,
+                            "h2_flux": sol.fluxes.get("EX_cpd11640_e0") if sol.status == "optimal" else "",
+                            "nitrogenase_flux": sol.fluxes.get("rxn06874_c0") if sol.status == "optimal" else "",
+                        }
+                    )
+                    if sol.status == "optimal":
+                        readouts = [rid for rid in READOUTS if rid in model.reactions]
+                        try:
+                            fva = flux_variability_analysis(model, reaction_list=readouts, fraction_of_optimum=0.9)
+                            for rid, row in fva.iterrows():
+                                fva_rows.append(
+                                    {
+                                        "model": model_label,
+                                        "carbon": carbon_name,
+                                        "nitrogen_regime": regime,
+                                        "reaction_id": rid,
+                                        "minimum": row["minimum"],
+                                        "maximum": row["maximum"],
+                                        "fraction_of_optimum": 0.9,
+                                    }
+                                )
+                        except Exception as exc:
                             fva_rows.append(
                                 {
+                                    "model": model_label,
                                     "carbon": carbon_name,
                                     "nitrogen_regime": regime,
-                                    "reaction_id": rid,
-                                    "minimum": row["minimum"],
-                                    "maximum": row["maximum"],
+                                    "reaction_id": "FVA_ERROR",
+                                    "minimum": "",
+                                    "maximum": "",
                                     "fraction_of_optimum": 0.9,
+                                    "error": repr(exc),
                                 }
                             )
-                    except Exception as exc:
-                        fva_rows.append(
-                            {
-                                "carbon": carbon_name,
-                                "nitrogen_regime": regime,
-                                "reaction_id": "FVA_ERROR",
-                                "minimum": "",
-                                "maximum": "",
-                                "fraction_of_optimum": 0.9,
-                                "error": repr(exc),
-                            }
-                        )
 
     pd.DataFrame(rows).to_csv(OUT / "nitrogen_regime_growth_h2_summary.tsv", sep="\t", index=False)
     pd.DataFrame(fva_rows).to_csv(OUT / "nitrogen_regime_readout_fva.tsv", sep="\t", index=False)

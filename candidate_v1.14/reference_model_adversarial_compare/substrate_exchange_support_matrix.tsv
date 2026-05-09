@@ -1,0 +1,43 @@
+model	substrate_or_metabolite	exchange_count	uptake_open_by_default	exchange_ids	bounds
+v1_13_baseline	acetate	1	True	EX_cpd00029_e0	-1.96/0.0
+v1_13_baseline	succinate	1	False	EX_cpd00036_e0	0.0/1000.0
+v1_13_baseline	malate	1	False	EX_cpd00130_e0	0.0/100.0
+v1_13_baseline	butyrate	1	False	EX_cpd00211_e0	0.0/1000.0
+v1_13_baseline	fumarate	1	False	EX_cpd00106_e0	0.0/100.0
+v1_13_baseline	p_coumarate	1	False	EX_cpd00604_e0	0.0/100.0
+v1_13_baseline	benzoate	3	True	EX_cpd00153_e0;EX_cpd00443_e0;EX_cpd00136_e0	0.0/100.0;0.0/0.0;-1000.0/0.0
+v1_13_baseline	4_hydroxybenzoate	1	True	EX_cpd00136_e0	-1000.0/0.0
+v1_13_baseline	glucose_negative	0	False		
+v1_13_baseline	xylose_negative	0	False		
+v1_13_baseline	fructose_negative	1	False	EX_cpd00082_e0	0.0/100.0
+v1_13_baseline	n2	0	False		
+v1_13_baseline	h2	1	False	EX_cpd11640_e0	0.0/1000.0
+v1_13_baseline	co2	2	True	EX_cpd00149_e0;EX_cpd00011_e0	-20.0/0.0;0.0/0.23
+v1_14_candidate_n2	acetate	1	True	EX_cpd00029_e0	-1.96/0.0
+v1_14_candidate_n2	succinate	1	False	EX_cpd00036_e0	0.0/1000.0
+v1_14_candidate_n2	malate	1	False	EX_cpd00130_e0	0.0/100.0
+v1_14_candidate_n2	butyrate	1	False	EX_cpd00211_e0	0.0/1000.0
+v1_14_candidate_n2	fumarate	1	False	EX_cpd00106_e0	0.0/100.0
+v1_14_candidate_n2	p_coumarate	1	False	EX_cpd00604_e0	0.0/100.0
+v1_14_candidate_n2	benzoate	3	True	EX_cpd00136_e0;EX_cpd00153_e0;EX_cpd00443_e0	-1000.0/0.0;0.0/100.0;0.0/0.0
+v1_14_candidate_n2	4_hydroxybenzoate	1	True	EX_cpd00136_e0	-1000.0/0.0
+v1_14_candidate_n2	glucose_negative	0	False		
+v1_14_candidate_n2	xylose_negative	0	False		
+v1_14_candidate_n2	fructose_negative	1	False	EX_cpd00082_e0	0.0/100.0
+v1_14_candidate_n2	n2	1	False	EX_cpd00528_c0	0.0/1000.0
+v1_14_candidate_n2	h2	1	False	EX_cpd11640_e0	0.0/1000.0
+v1_14_candidate_n2	co2	2	True	EX_cpd00011_e0;EX_cpd00149_e0	0.0/0.23;-20.0/0.0
+iRpa940_reference	acetate	1	True	EX_cpd00029_b	-1000.0/1000.0
+iRpa940_reference	succinate	0	False		
+iRpa940_reference	malate	0	False		
+iRpa940_reference	butyrate	0	False		
+iRpa940_reference	fumarate	0	False		
+iRpa940_reference	p_coumarate	1	True	EX_cpd00604_b	-1000.0/1000.0
+iRpa940_reference	benzoate	1	True	EX_cpd00153_b	-1000.0/1000.0
+iRpa940_reference	4_hydroxybenzoate	0	False		
+iRpa940_reference	glucose_negative	0	False		
+iRpa940_reference	xylose_negative	0	False		
+iRpa940_reference	fructose_negative	0	False		
+iRpa940_reference	n2	1	True	EX_cpd00528_b	-1000.0/1000.0
+iRpa940_reference	h2	1	True	EX_cpd11640_b	-1000.0/1000.0
+iRpa940_reference	co2	1	True	EX_cpd00011_b	-1000.0/1000.0

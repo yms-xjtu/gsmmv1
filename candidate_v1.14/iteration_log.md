@@ -54,3 +54,41 @@ Result:
 Decision:
 
 Advance the N2 boundary candidate to MEMOTE/phenotype regression. Do not finalize until those checks pass.
+
+## Cycle 10-11 Summary
+
+Compared v1.13 and the candidate N2-boundary model against iRpa940/Navid2019 and reran a Python version of the substrate phenotype panel.
+
+Findings:
+
+- The first N2 matching pass falsely counted Mn2+/Zn2+ as N2; the comparison script was corrected to use exact N2/dinitrogen matching.
+- iRpa940 has an N2 boundary; v1.13 does not.
+- The candidate N2-boundary model preserves the current phenotype panel: 16/16 expected-design checks pass or pass as structural negatives, matching v1.13.
+- Fructose remains a controlled negative: exchange exists but no transport-driven growth is detected.
+
+Decision:
+
+The candidate N2 boundary model has passed Python phenotype regression and reference-model adversarial screening. Continue to MEMOTE and nitrogen-fixing/H2 validation.
+
+## Cycle 12 Summary
+
+Ran paired MEMOTE snapshots for frozen v1.13 and the candidate N2-boundary model, then parsed the HTML reports into TSV comparison tables.
+
+Findings:
+
+- v1.13 MEMOTE: total score 0.3721140138609879; 139 failed, 114 passed, 10 skipped.
+- candidate N2-boundary MEMOTE: total score 0.3721009059825648; 139 failed, 114 passed, 10 skipped.
+- The candidate does not introduce a new MEMOTE pass/fail regression, but the absolute quality profile is not publication-ready.
+
+Tightened the nitrogen/H2 validation by closing all original nitrogen-containing uptake boundaries before selectively reopening ammonium or N2.
+
+Adversarial finding:
+
+- The earlier nitrogen diagnostic was too permissive because lysine, aspartate, glutamine, methionine, biotin, and B12 exchange could remain open.
+- Under strict nitrogen-source control, ammonium-only acetate growth is zero in both v1.13 and the candidate.
+- Methionine plus ammonium partially rescues both models.
+- Candidate v1.14, but not v1.13, can grow under N2 plus methionine with forced nitrogenase.
+
+Decision:
+
+The N2 boundary remains a defensible v1.14 candidate edit, but the model is not yet ready for publication claims about minimal nitrogen-fixing growth. The next cycle should audit methionine biosynthesis/sulfur metabolism and distinguish true experimental medium supplements from model gaps.

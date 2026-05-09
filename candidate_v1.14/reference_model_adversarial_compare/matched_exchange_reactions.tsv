@@ -1,0 +1,36 @@
+model	substrate_or_metabolite	exchange_id	name	lower_bound	upper_bound	reaction	cobra_exchange	single_metabolite_boundary
+v1_13_baseline	co2	EX_cpd00149_e0	Exchange for Co2+_e0	-20.0	0.0	cpd00149[e0] <-- 	True	True
+v1_13_baseline	fructose_negative	EX_cpd00082_e0	Exchange for D-Fructose_e0	0.0	100.0	cpd00082[e0] --> 	True	True
+v1_13_baseline	benzoate	EX_cpd00153_e0	Exchange for Benzoate_e0	0.0	100.0	cpd00153[e0] --> 	True	True
+v1_13_baseline	co2	EX_cpd00011_e0	Exchange for CO2_e0	0.0	0.23	cpd00011[e0] --> 	True	True
+v1_13_baseline	benzoate	EX_cpd00443_e0	Exchange for p-aminobenzoic acid_e0	0.0	0.0	cpd00443[e0] --> 	True	True
+v1_13_baseline	h2	EX_cpd11640_e0	Exchange for H2_e0	0.0	1000.0	cpd11640[e0] --> 	True	True
+v1_13_baseline	butyrate	EX_cpd00211_e0	Exchange for Butyrate_e0	0.0	1000.0	cpd00211[e0] --> 	True	True
+v1_13_baseline	acetate	EX_cpd00029_e0	Exchange for Acetate_e0	-1.96	0.0	cpd00029[e0] <-- 	True	True
+v1_13_baseline	malate	EX_cpd00130_e0	Exchange for L-Malate_e0	0.0	100.0	cpd00130[e0] --> 	True	True
+v1_13_baseline	succinate	EX_cpd00036_e0	Exchange for Succinate_e0	0.0	1000.0	cpd00036[e0] --> 	True	True
+v1_13_baseline	fumarate	EX_cpd00106_e0	Exchange for Fumarate_e0	0.0	100.0	cpd00106[e0] --> 	True	True
+v1_13_baseline	p_coumarate	EX_cpd00604_e0	Exchange for 4-Coumarate_e0	0.0	100.0	cpd00604[e0] --> 	True	True
+v1_13_baseline	benzoate	EX_cpd00136_e0	Exchange for 4-Hydroxybenzoate	-1000.0	0.0	cpd00136[e0] <-- 	True	True
+v1_13_baseline	4_hydroxybenzoate	EX_cpd00136_e0	Exchange for 4-Hydroxybenzoate	-1000.0	0.0	cpd00136[e0] <-- 	True	True
+v1_14_candidate_n2	n2	EX_cpd00528_c0	Exchange for N2_c0 candidate boundary	0.0	1000.0	cpd00528[c0] --> 	False	True
+v1_14_candidate_n2	co2	EX_cpd00011_e0	Exchange for CO2_e0	0.0	0.23	cpd00011[e0] --> 	True	True
+v1_14_candidate_n2	p_coumarate	EX_cpd00604_e0	Exchange for 4-Coumarate_e0	0.0	100.0	cpd00604[e0] --> 	True	True
+v1_14_candidate_n2	acetate	EX_cpd00029_e0	Exchange for Acetate_e0	-1.96	0.0	cpd00029[e0] <-- 	True	True
+v1_14_candidate_n2	benzoate	EX_cpd00136_e0	Exchange for 4-Hydroxybenzoate	-1000.0	0.0	cpd00136[e0] <-- 	True	True
+v1_14_candidate_n2	4_hydroxybenzoate	EX_cpd00136_e0	Exchange for 4-Hydroxybenzoate	-1000.0	0.0	cpd00136[e0] <-- 	True	True
+v1_14_candidate_n2	succinate	EX_cpd00036_e0	Exchange for Succinate_e0	0.0	1000.0	cpd00036[e0] --> 	True	True
+v1_14_candidate_n2	malate	EX_cpd00130_e0	Exchange for L-Malate_e0	0.0	100.0	cpd00130[e0] --> 	True	True
+v1_14_candidate_n2	co2	EX_cpd00149_e0	Exchange for Co2+_e0	-20.0	0.0	cpd00149[e0] <-- 	True	True
+v1_14_candidate_n2	benzoate	EX_cpd00153_e0	Exchange for Benzoate_e0	0.0	100.0	cpd00153[e0] --> 	True	True
+v1_14_candidate_n2	h2	EX_cpd11640_e0	Exchange for H2_e0	0.0	1000.0	cpd11640[e0] --> 	True	True
+v1_14_candidate_n2	benzoate	EX_cpd00443_e0	Exchange for p-aminobenzoic acid_e0	0.0	0.0	cpd00443[e0] --> 	True	True
+v1_14_candidate_n2	fumarate	EX_cpd00106_e0	Exchange for Fumarate_e0	0.0	100.0	cpd00106[e0] --> 	True	True
+v1_14_candidate_n2	butyrate	EX_cpd00211_e0	Exchange for Butyrate_e0	0.0	1000.0	cpd00211[e0] --> 	True	True
+v1_14_candidate_n2	fructose_negative	EX_cpd00082_e0	Exchange for D-Fructose_e0	0.0	100.0	cpd00082[e0] --> 	True	True
+iRpa940_reference	n2	EX_cpd00528_b	EX_cpd00528_b	-1000.0	1000.0	cpd00528_b <=> 	True	True
+iRpa940_reference	h2	EX_cpd11640_b	EX_cpd11640_b	-1000.0	1000.0	cpd11640_b <=> 	True	True
+iRpa940_reference	p_coumarate	EX_cpd00604_b	EX_cpd00604_b	-1000.0	1000.0	cpd00604_b <=> 	True	True
+iRpa940_reference	benzoate	EX_cpd00153_b	EX_cpd00153_b	-1000.0	1000.0	cpd00153_b <=> 	True	True
+iRpa940_reference	co2	EX_cpd00011_b	EX_cpd00011_b	-1000.0	1000.0	cpd00011_b <=> 	True	True
+iRpa940_reference	acetate	EX_cpd00029_b	EX_cpd00029_b	-1000.0	1000.0	cpd00029_b <=> 	True	True

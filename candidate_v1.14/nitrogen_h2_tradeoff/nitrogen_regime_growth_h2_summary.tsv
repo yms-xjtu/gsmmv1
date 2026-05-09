@@ -1,13 +1,41 @@
-carbon	exchange	uptake_lb	nitrogen_regime	status	objective_value	h2_flux	nitrogenase_flux
-acetate	EX_cpd00029_e0	-1.96	ammonium_open	optimal	7.012417318137142	0.0	0.0
-acetate	EX_cpd00029_e0	-1.96	ammonium_closed	optimal	7.012417318145717	0.0	0.0
-acetate	EX_cpd00029_e0	-1.96	nitrogenase_forced_min	infeasible	6.914285393877347		
-succinate	EX_cpd00036_e0	-4.66	ammonium_open	optimal	7.104909834918717	0.0	0.0
-succinate	EX_cpd00036_e0	-4.66	ammonium_closed	optimal	7.104909834918711	0.0	0.0
-succinate	EX_cpd00036_e0	-4.66	nitrogenase_forced_min	infeasible	6.914285393877319		
-butyrate	EX_cpd00211_e0	-3.69	ammonium_open	optimal	7.578673497523036	0.0	0.0
-butyrate	EX_cpd00211_e0	-3.69	ammonium_closed	optimal	7.578673497523028	0.0	0.0
-butyrate	EX_cpd00211_e0	-3.69	nitrogenase_forced_min	infeasible	6.914285393877319		
-fumarate	EX_cpd00106_e0	-4.66	ammonium_open	optimal	6.922311475211982	0.0	0.0
-fumarate	EX_cpd00106_e0	-4.66	ammonium_closed	optimal	6.9223114752119725	0.0	0.0
-fumarate	EX_cpd00106_e0	-4.66	nitrogenase_forced_min	infeasible	6.914285393877319		
+model	has_n2_boundary	closed_nitrogen_uptake_boundary_count	closed_nitrogen_uptake_boundaries	carbon	exchange	uptake_lb	nitrogen_regime	status	objective_value	h2_flux	nitrogenase_flux
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	nitrogenase_forced_min_n2_open	infeasible	0.0		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	nitrogenase_forced_min_n2_open	infeasible	0.0		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	nitrogenase_forced_min_n2_closed	infeasible	-2.0936701653585846e-18		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	nitrogenase_forced_min_n2_open	infeasible	-2.0936701653585846e-18		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+baseline_v1.13	False	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	nitrogenase_forced_min_n2_open	infeasible	0.0		
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	acetate	EX_cpd00029_e0	-1.96	nitrogenase_forced_min_n2_open	optimal	0.0	0.0	0.01
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	succinate	EX_cpd00036_e0	-4.66	nitrogenase_forced_min_n2_open	optimal	2.4641128049185318e-32	0.0	0.01
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	butyrate	EX_cpd00211_e0	-3.69	nitrogenase_forced_min_n2_open	optimal	0.0	0.0	0.01
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_open_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_closed_n2_closed	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	ammonium_closed_n2_open	optimal	0.0	0.0	0.0
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	nitrogenase_forced_min_n2_closed	infeasible	0.0		
+candidate_n2_boundary	True	7	EX_cpd00013_e0;EX_cpd00039_e0;EX_cpd00041_e0;EX_cpd00053_e0;EX_cpd00060_e0;EX_cpd00104_e0;EX_cpd03424_e0	fumarate	EX_cpd00106_e0	-4.66	nitrogenase_forced_min_n2_open	optimal	0.0	0.0	0.01

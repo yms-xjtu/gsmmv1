@@ -1,0 +1,13 @@
+model	section	score
+baseline_v1.13	total	0.3721140138609879
+baseline_v1.13	consistency	0.556425204732872
+baseline_v1.13	annotation_met	0.2845900269291484
+baseline_v1.13	annotation_rxn	0.5677168353466101
+baseline_v1.13	annotation_gene	0.3333333333333333
+baseline_v1.13	annotation_sbo	0.18181818181818182
+candidate_n2_boundary	total	0.3721009059825648
+candidate_n2_boundary	consistency	0.5564403593095542
+candidate_n2_boundary	annotation_met	0.2845900269291484
+candidate_n2_boundary	annotation_rxn	0.5674603174603174
+candidate_n2_boundary	annotation_gene	0.3333333333333333
+candidate_n2_boundary	annotation_sbo	0.18181818181818182

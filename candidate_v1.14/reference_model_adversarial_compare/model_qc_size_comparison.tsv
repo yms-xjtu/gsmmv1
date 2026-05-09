@@ -1,0 +1,4 @@
+model	reactions	metabolites	genes	exchanges	missing_formula_metabolites	missing_charge_metabolites	fba_status_default	fba_objective_default	internal_checkable_imbalances
+v1_13_baseline	1021	979	685	74	0	0	optimal	10.545509652968153	33
+v1_14_candidate_n2	1022	979	685	74	0	0	optimal	10.545509652968292	33
+iRpa940_reference	1486	1578	563	37	1578	0	optimal	117.3033750095386	88

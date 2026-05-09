@@ -1,0 +1,15 @@
+model	reaction_id	name	original_lower_bound	original_upper_bound	metabolites	formulas
+baseline_v1.13	EX_cpd00013_e0	Exchange for NH3_e0	-100.0	100.0	cpd00013[e0]	H4N
+baseline_v1.13	EX_cpd00039_e0	Exchange for L-Lysine_e0	-1000.0	1000.0	cpd00039[e0]	C6H15N2O2
+baseline_v1.13	EX_cpd00041_e0	Exchange for L-Aspartate_e0	-1000.0	1000.0	cpd00041[e0]	C4H6NO4
+baseline_v1.13	EX_cpd00053_e0	Exchange for L-Glutamine_e0	-1000.0	0.0	cpd00053[e0]	C5H10N2O3
+baseline_v1.13	EX_cpd00060_e0	Exchange for L-Methionine_e0	-1000.0	1000.0	cpd00060[e0]	C5H11NO2S
+baseline_v1.13	EX_cpd00104_e0	Exchange for BIOT_e0	-10.0	0.0	cpd00104[e0]	C10H15N2O3S
+baseline_v1.13	EX_cpd03424_e0	Exchange for Vitamin B12_e0	-100.0	0.0	cpd03424[e0]	C61H86CoN13O14PR
+candidate_n2_boundary	EX_cpd00013_e0	Exchange for NH3_e0	-100.0	100.0	cpd00013[e0]	H4N
+candidate_n2_boundary	EX_cpd00039_e0	Exchange for L-Lysine_e0	-1000.0	1000.0	cpd00039[e0]	C6H15N2O2
+candidate_n2_boundary	EX_cpd00041_e0	Exchange for L-Aspartate_e0	-1000.0	1000.0	cpd00041[e0]	C4H6NO4
+candidate_n2_boundary	EX_cpd00053_e0	Exchange for L-Glutamine_e0	-1000.0	0.0	cpd00053[e0]	C5H10N2O3
+candidate_n2_boundary	EX_cpd00060_e0	Exchange for L-Methionine_e0	-1000.0	1000.0	cpd00060[e0]	C5H11NO2S
+candidate_n2_boundary	EX_cpd00104_e0	Exchange for BIOT_e0	-10.0	0.0	cpd00104[e0]	C10H15N2O3S
+candidate_n2_boundary	EX_cpd03424_e0	Exchange for Vitamin B12_e0	-100.0	0.0	cpd03424[e0]	C61H86CoN13O14PR

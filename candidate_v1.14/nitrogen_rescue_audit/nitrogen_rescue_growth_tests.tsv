@@ -1,0 +1,23 @@
+model	test	rescued_reaction	status	objective_value	growth_positive	rescued_name
+baseline_v1.13	ammonium_only		optimal	0.0	False	
+baseline_v1.13	n2_only_no_ammonium	EX_cpd00528_c0	optimal	0.0	False	
+baseline_v1.13	n2_plus_methionine_no_ammonium	EX_cpd00528_c0;EX_cpd00060_e0	optimal	0.0	False	
+baseline_v1.13	forced_nitrogenase_n2_plus_methionine_no_ammonium	rxn06874_c0;EX_cpd00528_c0;EX_cpd00060_e0	infeasible		False	
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00039_e0	optimal	0.0	False	Exchange for L-Lysine_e0
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00041_e0	optimal	0.0	False	Exchange for L-Aspartate_e0
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00053_e0	optimal	0.0	False	Exchange for L-Glutamine_e0
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00060_e0	optimal	0.10693048022277073	True	Exchange for L-Methionine_e0
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00104_e0	optimal	-3.9844907906175946e-17	False	Exchange for BIOT_e0
+baseline_v1.13	ammonium_plus_single_original_nitrogen_boundary	EX_cpd03424_e0	optimal	3.720184128428468e-15	False	Exchange for Vitamin B12_e0
+baseline_v1.13	ammonium_plus_all_original_nitrogen_boundaries	ALL_ORIGINAL_N_BOUNDARIES	optimal	7.012417318145676	True	
+candidate_n2_boundary	ammonium_only		optimal	0.0	False	
+candidate_n2_boundary	n2_only_no_ammonium	EX_cpd00528_c0	optimal	0.0	False	
+candidate_n2_boundary	n2_plus_methionine_no_ammonium	EX_cpd00528_c0;EX_cpd00060_e0	optimal	0.10693048022276798	True	
+candidate_n2_boundary	forced_nitrogenase_n2_plus_methionine_no_ammonium	rxn06874_c0;EX_cpd00528_c0;EX_cpd00060_e0	optimal	0.10693048022277074	True	
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00039_e0	optimal	9.404196048405983e-17	False	Exchange for L-Lysine_e0
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00041_e0	optimal	-5.340195678372774e-14	False	Exchange for L-Aspartate_e0
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00053_e0	optimal	-5.340195678372774e-14	False	Exchange for L-Glutamine_e0
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00060_e0	optimal	0.10693048022276955	True	Exchange for L-Methionine_e0
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd00104_e0	optimal	1.066065397496869e-29	False	Exchange for BIOT_e0
+candidate_n2_boundary	ammonium_plus_single_original_nitrogen_boundary	EX_cpd03424_e0	optimal	1.1204383699416958e-29	False	Exchange for Vitamin B12_e0
+candidate_n2_boundary	ammonium_plus_all_original_nitrogen_boundaries	ALL_ORIGINAL_N_BOUNDARIES	optimal	7.012417318145782	True	
