@@ -1,0 +1,111 @@
+reaction_id	name	lower_bound	upper_bound	reaction	gpr	is_exchange
+biomass_ions_c0	ions biomass pseudo-reaction_c0	0.0	1000.0	0.03186 cpd00013[c0] + 0.008486 cpd00030[c0] + 0.008486 cpd00034[c0] + 0.0106 cpd00048[c0] + 0.008486 cpd00058[c0] + 0.01272 cpd00063[c0] + 0.01272 cpd00099[c0] + 0.008486 cpd00149[c0] + 0.4765 cpd00205[c0] + 0.0212 cpd00254[c0] + 0.01909 cpd10515[c0] + 0.01909 cpd10516[c0] + 0.008487 cpd11574[c0] --> bm_ions[c0]		False
+biomass_lps_c0	LPS biomass pseudo-reaction_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + 2.0 cpd00022[c0] + 23.0 cpd00026[c0] + 30.0 cpd00037[c0] + 10.0 cpd00043[c0] + 2.0 cpd00053[c0] + cpd00062[c0] + 23.0 cpd00083[c0] + 2.0 cpd00288[c0] + 25.0 cpd02546[c0] + 11.0 cpd03831[c0] + 2.0 cpd11481[c0] + 4.0 cpd11484[c0] --> 12.0 cpd00008[c0] + 2.0 cpd00010[c0] + cpd00012[c0] + 64.0 cpd00014[c0] + 2.0 cpd00023[c0] + 23.0 cpd00031[c0] + 25.0 cpd00046[c0] + 4.0 cpd00067[c0] + 6.0 cpd11493[c0] + cpd15432[c0]		False
+rxn00002_c0	urea-1-carboxylate amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + 3.0 cpd00067[c0] + cpd00742[c0] --> 2.0 cpd00011[c0] + 2.0 cpd00013[c0]	TX73_RS07205 or TX73_RS07530	False
+rxn00060_c0	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)_c0	0.0	1000.0	cpd00001[c0] + 4.0 cpd00689[c0] --> 4.0 cpd00013[c0] + cpd00755[c0]	TX73_RS07735	False
+rxn00085_c0	L-Glutamate:NADP+ oxidoreductase (transaminating)_c0	-1000.0	1000.0	cpd00006[c0] + 2.0 cpd00023[c0] <=> cpd00005[c0] + cpd00024[c0] + cpd00053[c0] + cpd00067[c0]	TX73_RS04590 and TX73_RS03510	False
+rxn00101_c0	Urea amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + 2.0 cpd00067[c0] + cpd00073[c0] --> cpd00011[c0] + 2.0 cpd00013[c0]	TX73_RS18980 and TX73_RS18985 and TX73_RS18970	False
+rxn00138_c0	deamido-NAD+:ammonia ligase (AMP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00013[c0] + cpd00638[c0] --> cpd00003[c0] + cpd00012[c0] + cpd00018[c0] + 2.0 cpd00067[c0]	TX73_RS10235	False
+rxn00179_c0	ATP:L-glutamate 5-phosphotransferase_c0	0.0	1000.0	cpd00002[c0] + cpd00023[c0] --> cpd00008[c0] + cpd02097[c0]	TX73_RS00850	False
+rxn00183_c0	L-glutamate-5-semialdehyde dehydrogenase_c0	0.0	1000.0	cpd00001[c0] + cpd00003[c0] + cpd00858[c0] --> cpd00004[c0] + cpd00023[c0] + 2.0 cpd00067[c0]	TX73_RS08115	False
+rxn00187_c0	L-Glutamate:ammonia ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00013[c0] + cpd00023[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00053[c0] + cpd00067[c0]	TX73_RS15390	False
+rxn00189_c0	L-Glutamine amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00053[c0] --> cpd00013[c0] + cpd00023[c0]	TX73_RS21830	False
+rxn00192_c0	acetyl-CoA:L-glutamate N-acetyltransferase_c0	0.0	1000.0	cpd00022[c0] + cpd00023[c0] --> cpd00010[c0] + cpd00067[c0] + cpd00477[c0]	TX73_RS03065	False
+rxn00193_c0	glutamate racemase_c0	-1000.0	1000.0	cpd00023[c0] <=> cpd00186[c0]	TX73_RS08175	False
+rxn00194_c0	L-glutamate 1-carboxy-lyase (4-aminobutanoate-forming)_c0	0.0	0.0	cpd00023[c0] + cpd00067[c0] --> cpd00011[c0] + cpd00281[c0]		False
+rxn00208_c0	Pyridoxamine-5'-phosphate:oxygen oxidoreductase (deaminating)_c0	0.0	1000.0	cpd00001[c0] + cpd00007[c0] + cpd00493[c0] --> cpd00013[c0] + cpd00016[c0] + cpd00025[c0]	TX73_RS06145	False
+rxn00231_c0	Acetamide amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd03734[c0] --> cpd00013[c0] + cpd00029[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn00260_c0	L-Aspartate:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00041[c0] <=> cpd00023[c0] + cpd00032[c0]	TX73_RS14485 or TX73_RS22440 or TX73_RS00540	False
+rxn00262_c0	L-Aspartic acid:oxygen oxidoreductase (deaminating)_c0	0.0	1000.0	cpd00001[c0] + cpd00007[c0] + cpd00041[c0] --> cpd00013[c0] + cpd00025[c0] + cpd00032[c0]	TX73_RS05420	False
+rxn00275_c0	Glycine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00033[c0] <=> cpd00023[c0] + cpd00040[c0]	TX73_RS04070	False
+rxn00327_c0	（S)-ureidoglycolate amidohydrolase (decarboxylating_c0	0.0	1000.0	cpd00001[c0] + 2.0 cpd00067[c0] + cpd00465[c0] --> cpd00011[c0] + 2.0 cpd00013[c0] + cpd00040[c0]		False
+rxn00350_c0	glutathione gamma-glutamylaminopeptidase_c0	0.0	1000.0	cpd00001[c0] + cpd00042[c0] --> cpd00023[c0] + cpd01017[c0]	TX73_RS22905 or TX73_RS04005 or TX73_RS12055 or TX73_RS00130	False
+rxn00407_c0	CTP aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00052[c0] + cpd00067[c0] --> cpd00013[c0] + cpd00062[c0]	TX73_RS24770	False
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00013[c0] + cpd00062[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00052[c0] + 2.0 cpd00067[c0]	TX73_RS14960	False
+rxn00412_c0	UTP:L-glutamine amido-ligase (ADP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd00062[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00052[c0] + 2.0 cpd00067[c0]	TX73_RS14960	False
+rxn00414_c0	hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)_c0	0.0	1000.0	cpd00001[c0] + 2.0 cpd00002[c0] + cpd00053[c0] + cpd00242[c0] --> 2.0 cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + 2.0 cpd00067[c0] + cpd00146[c0]	TX73_RS06555 and TX73_RS21090	False
+rxn00416_c0	L-aspartate:L-glutamine amido-ligase (AMP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00041[c0] + cpd00053[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00023[c0] + 2.0 cpd00067[c0] + cpd00132[c0]		False
+rxn00467_c0	L-glutamate:L-glutamate-5-semialdehyde aminotransferase (L-ornithine-forming)_c0	-1000.0	1000.0	cpd00023[c0] + cpd00858[c0] <=> cpd00024[c0] + cpd00064[c0]	TX73_RS19330	False
+rxn00473_c0	L-tryptophan indole-lyase (deaminating; pyruvate-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00065[c0] --> cpd00013[c0] + cpd00020[c0] + cpd00359[c0]	TX73_RS18475	False
+rxn00493_c0	L-Phenylalanine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00066[c0] <=> cpd00023[c0] + cpd00143[c0]	TX73_RS23035 or TX73_RS22440	False
+rxn00527_c0	L-tyrosine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00069[c0] <=> cpd00023[c0] + cpd00868[c0]	TX73_RS22440 or TX73_RS23035	False
+rxn00539_c0	ethanolamine ammonia-lyase (acetaldehyde-forming)_c0	0.0	1000.0	cpd00162[c0] --> cpd00013[c0] + cpd00071[c0]	TX73_RS19405 or TX73_RS19415	False
+rxn00555_c0	L-glutamine:D-fructose-6-phosphate isomerase (deaminating)_c0	-1000.0	1000.0	cpd00053[c0] + cpd00072[c0] <=> cpd00023[c0] + cpd00288[c0]	TX73_RS13785	False
+rxn00560_c0	Urea:carbon-dioxide ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00073[c0] + cpd00242[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00742[c0]	TX73_RS07210	False
+rxn00566_c0	L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00084[c0] --> cpd00013[c0] + cpd00020[c0] + cpd00067[c0] + cpd00239[c0]	TX73_RS12185	False
+rxn00646_c0	L-glutamate:L-cysteine gamma-ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd00084[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00506[c0]	TX73_RS04240	False
+rxn00647_c0	L-Cysteine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00084[c0] <=> cpd00023[c0] + cpd00706[c0]	TX73_RS22440	False
+rxn00654_c0	N-Carbamoyl-beta-alanine amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + 2.0 cpd00067[c0] + cpd01720[c0] --> cpd00011[c0] + cpd00013[c0] + cpd00085[c0]	TX73_RS08975	False
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)_c0	-1000.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd00087[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd06227[c0]	TX73_RS00375	False
+rxn00722_c0	Anthranilate,NADPH:oxygen oxidoreductase (3-hydroxylating, deaminating)_c0	-1000.0	1000.0	cpd00005[c0] + cpd00007[c0] + 2.0 cpd00067[c0] + cpd00093[c0] <=> cpd00006[c0] + cpd00013[c0] + cpd00168[c0]	TX73_RS12015	False
+rxn00726_c0	chorismate pyruvate-lyase (amino-accepting; anthranilate-forming)_c0	0.0	1000.0	cpd00013[c0] + cpd00216[c0] --> cpd00001[c0] + cpd00020[c0] + cpd00067[c0] + cpd00093[c0]	TX73_RS23350	False
+rxn00727_c0	Chorismate pyruvate-lyase (amino-accepting)_c0	0.0	1000.0	cpd00053[c0] + cpd00216[c0] --> cpd00020[c0] + cpd00023[c0] + cpd00067[c0] + cpd00093[c0]	TX73_RS23350	False
+rxn00737_c0	L-threonine ammonia-lyase (2-oxobutanoate-forming)_c0	0.0	1000.0	cpd00161[c0] --> cpd00013[c0] + cpd00094[c0]	TX73_RS20550	False
+rxn00790_c0	phosphoribosyl pyrophosphate amidotransferase_c0	0.0	1000.0	cpd00001[c0] + cpd00053[c0] + cpd00103[c0] --> cpd00012[c0] + cpd00023[c0] + cpd00067[c0] + cpd01982[c0]	TX73_RS15990	False
+rxn00806_c0	L-Leucine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00107[c0] <=> cpd00023[c0] + cpd00200[c0]	TX73_RS22650 or TX73_RS23855	False
+rxn00837_c0	inosine-5'-phosphate:NADP+ oxidoreductase (aminating)_c0	0.0	1000.0	cpd00005[c0] + 2.0 cpd00067[c0] + cpd00126[c0] --> cpd00006[c0] + cpd00013[c0] + cpd00114[c0]	TX73_RS23695	False
+rxn00856_c0	putrescine:2-oxoglutarate aminotransferase	-1000.0	1000.0	cpd00024[c0] + cpd00118[c0] <=> cpd00023[c0] + cpd00434[c0]		False
+rxn00903_c0	L-Valine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00156[c0] <=> cpd00023[c0] + cpd00123[c0]	TX73_RS22650 or TX73_RS23855	False
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming	0.0	1000.0	cpd00002[c0] + cpd00013[c0] + cpd00497[c0] --> cpd00012[c0] + cpd00018[c0] + 3.0 cpd00067[c0] + cpd00126[c0]		False
+rxn00917_c0	Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd00497[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00023[c0] + 3.0 cpd00067[c0] + cpd00126[c0]	TX73_RS11370 or TX73_RS11370	False
+rxn00950_c0	Cystathionine L-homocysteine-lyase (deaminating)_c0	0.0	1000.0	cpd00001[c0] + cpd00424[c0] --> cpd00013[c0] + cpd00020[c0] + cpd00135[c0]	TX73_RS13235	False
+rxn01204_c0	4-aminobutanoate:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00281[c0] <=> cpd00023[c0] + cpd00199[c0]	TX73_RS12015	False
+rxn01210_c0	10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd00201[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd03524[c0]	TX73_RS00375	False
+rxn01234_c0	taurine:ferricytochrome-c oxidoreductase (deaminating)_c0	-1000.0	1000.0	cpd00001[c0] + 2.0 cpd00109[c0] + cpd00210[c0] <=> cpd00013[c0] + 2.0 cpd00067[c0] + 2.0 cpd00110[c0] + cpd00460[c0]	TX73_RS00580 and TX73_RS00585	False
+rxn01251_c0	Pyridoxamine:oxygen oxidoreductase (deaminating)	0.0	1000.0	cpd00001[c0] + cpd00007[c0] + cpd00419[c0] --> cpd00013[c0] + cpd00025[c0] + cpd00215[c0]	TX73_RS06145	False
+rxn01257_c0	chorismate:L-glutamine aminotransferase_c0	-1000.0	1000.0	cpd00053[c0] + cpd00216[c0] <=> cpd00023[c0] + cpd08210[c0]		False
+rxn01368_c0	Cytidine aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00067[c0] + cpd00367[c0] --> cpd00013[c0] + cpd00249[c0]	TX73_RS05660	False
+rxn01575_c0	L-Isoleucine:2-oxoglutarate aminotransferase_c0	0.0	1000.0	cpd00023[c0] + cpd00508[c0] --> cpd00024[c0] + cpd00322[c0]	TX73_RS22650 or TX73_RS23855	False
+rxn01603_c0	7,8-dihydropteroate:L-glutamate ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd00683[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00330[c0]	TX73_RS00375	False
+rxn01636_c0	N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase_c0	-1000.0	1000.0	cpd00023[c0] + cpd00342[c0] <=> cpd00064[c0] + cpd00477[c0]	TX73_RS03065	False
+rxn01637_c0	N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00342[c0] <=> cpd00023[c0] + cpd00918[c0]	TX73_RS24810	False
+rxn01652_c0	S-Aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)_c0	-1000.0	1000.0	cpd00001[c0] + cpd00347[c0] <=> cpd00067[c0] + cpd02197[c0]	TX73_RS19925	False
+rxn01672_c0	dCTP aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00067[c0] + cpd00356[c0] --> cpd00013[c0] + cpd00358[c0]	TX73_RS24770	False
+rxn01757_c0	L-cysteate:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00395[c0] <=> cpd00023[c0] + cpd03285[c0]	TX73_RS22440	False
+rxn01800_c0	Deoxycytidine aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00067[c0] + cpd00654[c0] --> cpd00013[c0] + cpd00412[c0]	TX73_RS05660	False
+rxn01843_c0	2-phenylacetamide amidohydrolase_c0	-1000.0	1000.0	cpd00001[c0] + cpd00067[c0] + cpd01647[c0] <=> cpd00013[c0] + cpd00430[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn01917_c0	ATP:N-acetyl-L-glutamate 5-phosphotransferase_c0	-1000.0	1000.0	cpd00002[c0] + cpd00477[c0] <=> cpd00008[c0] + cpd02552[c0]	TX73_RS03255	False
+rxn02008_c0	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00186[c0] + cpd00890[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00525[c0]	TX73_RS18305	False
+rxn02011_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase (ADP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00516[c0] + cpd00525[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd02964[c0]	TX73_RS18320	False
+rxn02222_c0	Indole-3-acetamide amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd01747[c0] --> cpd00013[c0] + cpd00703[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn02275_c0	4-Guanidinobutanamide amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd01973[c0] --> cpd00013[c0] + cpd00762[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn02320_c0	5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00807[c0] <=> cpd00023[c0] + cpd00930[c0]	TX73_RS23035	False
+rxn02374_c0	L-glutamate-5-semialdehyde cyclization (spontaneous)_c0	0.0	1000.0	cpd00858[c0] --> cpd00001[c0] + cpd00067[c0] + cpd02431[c0]		False
+rxn02465_c0	N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)_c0	-1000.0	1000.0	cpd00006[c0] + cpd00009[c0] + cpd00918[c0] <=> cpd00005[c0] + cpd00067[c0] + cpd02552[c0]	TX73_RS12875	False
+rxn02475_c0	2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd00067[c0] + cpd00957[c0] --> cpd00013[c0] + cpd00931[c0]	TX73_RS14125	False
+rxn02914_c0	3-Phosphoserine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd00738[c0] <=> cpd00023[c0] + cpd02069[c0]	TX73_RS22330	False
+rxn03052_c0	5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase_c0	-1000.0	1000.0	cpd00135[c0] + cpd02738[c0] <=> cpd00060[c0] + cpd02555[c0]	TX73_RS11255 or TX73_RS12380	False
+rxn03070_c0	L-4-hydroxyglutamate semialdehyde cyclization (spontaneous)_c0	0.0	1000.0	cpd03530[c0] --> cpd00001[c0] + cpd00067[c0] + cpd02625[c0]		False
+rxn03084_c0	5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd02678[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00067[c0] + cpd02826[c0]	TX73_RS19765 and TX73_RS19775 and TX73_RS08205	False
+rxn03087_c0	N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd02698[c0] <=> cpd00023[c0] + cpd02724[c0]	TX73_RS01450	False
+rxn03135_c0	R04558_c0	0.0	1000.0	cpd00053[c0] + cpd02991[c0] --> cpd00023[c0] + 2.0 cpd00067[c0] + cpd02843[c0] + cpd02851[c0]	TX73_RS01615 or TX73_RS01625	False
+rxn03188_c0	3-Ureidoisobutyrate amidohydrolase_c0	0.0	1000.0	cpd00001[c0] + 2.0 cpd00067[c0] + cpd03034[c0] --> cpd00011[c0] + cpd00013[c0] + cpd03063[c0]	TX73_RS08975	False
+rxn03445_c0	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00023[c0] + cpd03606[c0] <=> cpd00024[c0] + cpd03607[c0]	TX73_RS22330	False
+rxn03540_c0	R05225_c0	0.0	1000.0	4.0 cpd00001[c0] + 4.0 cpd00002[c0] + 4.0 cpd00053[c0] + cpd03916[c0] --> 4.0 cpd00008[c0] + 4.0 cpd00009[c0] + 4.0 cpd00023[c0] + 4.0 cpd00067[c0] + cpd03917[c0]	TX73_RS10800 and TX73_RS03715	False
+rxn03839_c0	R05551_c0	0.0	1000.0	cpd00001[c0] + cpd01150[c0] --> cpd00013[c0] + cpd00400[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn03869_c0	Acylamide aminohydrolase_c0	0.0	1000.0	cpd00001[c0] + cpd06707[c0] --> cpd00013[c0] + cpd00153[c0]	TX73_RS08750 or TX73_RS17805 or TX73_RS20510	False
+rxn04786_c0	L-2,4-diaminobutyrate:2-oxoglutarate 4-aminotransferase_c0	-1000.0	1000.0	cpd00023[c0] + cpd00346[c0] <=> cpd00024[c0] + cpd02095[c0]		False
+rxn05064_c0	carbamate hydro-lyase_c0	0.0	1000.0	2.0 cpd00067[c0] + cpd01101[c0] --> cpd00011[c0] + cpd00013[c0]	TX73_RS10900	False
+rxn05155_c0	L-glutamine ABC import_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00053[c0] + cpd00067[c0]		False
+rxn05171_c0	nitrate ABC import_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00209[e0] --> cpd00008[c0] + cpd00009[c0] + cpd00067[c0] + cpd00209[c0]	(RPA2112 and RPA2113 and RPA2114) or (RPA2631 and RPA2632 and RPA2633)	False
+rxn05298_c0	Na+/glutamate symport_c0	-1000.0	1000.0	cpd00023[e0] + cpd00971[e0] <=> cpd00023[c0] + cpd00971[c0]	TX73_RS11705	False
+rxn05466_c0	diffusion for NH3_e0	-1000.0	1000.0	cpd00013[e0] <=> cpd00013[c0]	TX73_RS01435 or TX73_RS01425	False
+rxn05893_c0	Ammonia:ferredoxin oxidoreductase_c0	-1000.0	1000.0	2.0 cpd00001[c0] + cpd00013[c0] + 6.0 cpd11621[c0] <=> 8.0 cpd00067[c0] + cpd00075[c0] + 6.0 cpd11620[c0]	TX73_RS19220	False
+rxn06436_c0	L-Glutamate:tRNA(Gln) ligase (AMP-forming)_c0	-1000.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd11911[c0] <=> cpd00012[c0] + cpd00018[c0] + cpd12828[c0]		False
+rxn06437_c0	L-Glutamine:tRNA(Gln) ligase (AMP-forming)_c0	-1000.0	1000.0	cpd00002[c0] + cpd00053[c0] + cpd11911[c0] <=> cpd00012[c0] + cpd00018[c0] + cpd00067[c0] + cpd12060[c0]		False
+rxn06600_c0	S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)_c0	0.0	1000.0	cpd00087[c0] + cpd11830[c0] --> cpd00013[c0] + cpd00125[c0] + cpd12225[c0]	TX73_RS19925	False
+rxn06874_c0	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	0.0	1000.0	16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0] --> 16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0]	(TX73_RS23995 and TX73_RS23990 and TX73_RS23985) or (TX73_RS07065 and TX73_RS07075 and TX73_RS07085) or (TX73_RS07385 and TX73_RS07380 and TX73_RS07370)	False
+rxn06887_c0	R05224_c0	0.0	1000.0	2.0 cpd00001[c0] + 2.0 cpd00002[c0] + 2.0 cpd00053[c0] + cpd03832[c0] --> 2.0 cpd00008[c0] + 2.0 cpd00009[c0] + 2.0 cpd00023[c0] + 2.0 cpd00067[c0] + cpd03913[c0]	TX73_RS10735	False
+rxn06937_c0	L-glutamate:tRNA(Glu) ligase (AMP-forming)_c0	-1000.0	1000.0	cpd00002[c0] + cpd00023[c0] + cpd11912[c0] <=> cpd00012[c0] + cpd00018[c0] + cpd00067[c0] + cpd12227[c0]	TX73_RS15060	False
+rxn06979_c0	cobyrinate:L-glutamine amido-ligase (ADP-forming)_c0	0.0	1000.0	2.0 cpd00001[c0] + 2.0 cpd00002[c0] + 2.0 cpd00053[c0] + cpd03421[c0] --> 2.0 cpd00008[c0] + 2.0 cpd00009[c0] + 2.0 cpd00023[c0] + 2.0 cpd00067[c0] + cpd03914[c0]	TX73_RS10735	False
+rxn10534_c0	Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd12828[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + cpd00067[c0] + cpd12060[c0]		False
+rxn11595_c0	Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00053[c0] + cpd12829[c0] --> cpd00008[c0] + cpd00009[c0] + cpd00023[c0] + 2.0 cpd00067[c0] + cpd12313[c0]		False
+rxn15507_c0	L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase_c0	-1000.0	1000.0	cpd00024[c0] + cpd19042[c0] <=> cpd00023[c0] + cpd19041[c0]	TX73_RS22440	False
+rxn30330_c0	L-4-hydroxyglutamate semialdehyde dehydrogenase (L-erythro-4-hydroxyglutamate-forming)_c0	-1000.0	1000.0	cpd00001[c0] + cpd00003[c0] + cpd03530[c0] <=> cpd00004[c0] + 2.0 cpd00067[c0] + cpd19042[c0]	TX73_RS08115	False
+rxn30633_c0	L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)_c0	-1000.0	1000.0	cpd00001[c0] + cpd19019[c0] <=> cpd00013[c0] + cpd00084[c0] + cpd00094[c0]	TX73_RS12185	False
+rxn39362_c0	nitrogen:ferricytochrome-c oxidoreductase (N2O-forming)_c0	-1000.0	1000.0	cpd00001[c0] + 2.0 cpd00109[c0] + cpd00528[c0] <=> 2.0 cpd00067[c0] + 2.0 cpd00110[c0] + cpd00659[c0]	TX73_RS10625	False
+rxn39478_c0	L-erythro-4-hydroxyglutamate:oxaloacetate aminotransferase_c0	-1000.0	1000.0	cpd00032[c0] + cpd19042[c0] <=> cpd00320[c0] + cpd19041[c0]	TX73_RS13435	False
+EX_cpd00013_e0	Exchange for NH3_e0	-100.0	100.0	cpd00013[e0] <=> 		True
+EX_cpd00023_e0	Exchange for L-Glutamate	0.0	0.0	cpd00023[e0] --> 		True
+EX_cpd00053_e0	Exchange for L-Glutamine_e0	-1000.0	0.0	cpd00053[e0] <-- 		True
+EX_cpd00209_e0	Exchange for Nitrate_e0	0.0	1000.0	cpd00209[e0] --> 		True

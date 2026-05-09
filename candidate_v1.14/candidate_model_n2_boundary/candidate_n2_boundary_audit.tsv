@@ -1,0 +1,2 @@
+reaction_id	name	lower_bound	upper_bound	reaction	note
+EX_cpd00528_c0	Exchange for N2_c0 candidate boundary	0.0	1000.0	cpd00528[c0] --> 	Candidate N2 boundary added closed for uptake by default; condition scripts may set lower_bound < 0 only for nitrogen-fixing scenarios.

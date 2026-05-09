@@ -1,0 +1,33 @@
+module	reaction_id	present	name	lower_bound	upper_bound	reaction	gpr
+H2_exchange	EX_cpd11640_e0	True	Exchange for H2_e0	0.0	1000.0	cpd11640[e0] --> 	
+H2_exchange	rxn08691_c0	True	hydrogen transport via diffusion (extracellular to periplasm)_c0	-1000.0	1000.0	cpd11640[c0] <=> cpd11640[e0]	
+H2_exchange	rxn05759_c0	True	hydrogen:ferredoxin oxidoreductase_c0	-1000.0	1000.0	2.0 cpd00067[c0] + 2.0 cpd11620[c0] <=> 2.0 cpd11621[c0] + cpd11640[c0]	
+nitrogenase	rxn06874_c0	True	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	0.0	1000.0	16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0] --> 16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0]	(TX73_RS23995 and TX73_RS23990 and TX73_RS23985) or (TX73_RS07065 and TX73_RS07075 and TX73_RS07085) or (TX73_RS07385 and TX73_RS07380 and TX73_RS07370)
+nitrogenase	rxn06926_c0	True	reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing)_c0	-1000.0	1000.0	cpd00001[c0] + cpd00002[c0] + cpd00067[c0] + cpd01090[c0] + cpd11620[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd03956[c0] + cpd11621[c0]	(TX73_RS23995 and TX73_RS23990 and TX73_RS23985) or (TX73_RS07065 and TX73_RS07075 and TX73_RS07080 and TX73_RS07085) or (TX73_RS07385 and TX73_RS07380 and TX73_RS07375 and TX73_RS07370)
+nitrogenase	rxn05893_c0	True	Ammonia:ferredoxin oxidoreductase_c0	-1000.0	1000.0	2.0 cpd00001[c0] + cpd00013[c0] + 6.0 cpd11621[c0] <=> 8.0 cpd00067[c0] + cpd00075[c0] + 6.0 cpd11620[c0]	TX73_RS19220
+CBB_RuBisCO_PRK	rxn00018_c0	True	3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)_c0	0.0	1000.0	cpd00001[c0] + cpd00011[c0] + cpd00871[c0] --> 2.0 cpd00067[c0] + 2.0 cpd00169[c0]	TX73_RS08010 and TX73_RS08015
+CBB_RuBisCO_PRK	rxn01111_c0	True	ATP:D-ribulose-5-phosphate 1-phosphotransferase_c0	0.0	1000.0	cpd00002[c0] + cpd00171[c0] --> cpd00008[c0] + cpd00067[c0] + cpd00871[c0]	TX73_RS24115
+CBB_RuBisCO_PRK	rxn01116_c0	True	D-Ribulose-5-phosphate 3-epimerase_c0	-1000.0	1000.0	cpd00171[c0] <=> cpd00198[c0]	TX73_RS19755
+CO2_exchange	EX_cpd00011_e0	True	Exchange for CO2_e0	0.0	0.23	cpd00011[e0] --> 	
+CO2_exchange	rxn05467_c0	True	diffusion for CO2_e0	-1000.0	1000.0	cpd00011[e0] <=> cpd00011[c0]	
+acetate_condition	EX_cpd00029_e0	True	Exchange for Acetate_e0	-1.96	0.0	cpd00029[e0] <-- 	
+acetate_condition	rxn05488_c0	True	acetate reversible transport via proton symport_c0	-1000.0	1000.0	cpd00029[e0] + cpd00067[e0] <=> cpd00029[c0] + cpd00067[c0]	
+acetate_condition	rxn00175_c0	True	Acetate:CoA ligase (AMP-forming)_c0	0.0	1000.0	cpd00002[c0] + cpd00010[c0] + cpd00029[c0] --> cpd00012[c0] + cpd00018[c0] + cpd00022[c0] + cpd00067[c0]	TX73_RS11905 or TX73_RS01095 or TX73_RS17830
+acetate_condition	rxn00225_c0	True	ATP:acetate phosphotransferase_c0	-1000.0	1000.0	cpd00002[c0] + cpd00029[c0] <=> cpd00008[c0] + cpd00196[c0]	TX73_RS23720
+succinate_condition	EX_cpd00036_e0	True	Exchange for Succinate_e0	0.0	1000.0	cpd00036[e0] --> 	
+succinate_condition	rxn05654_c0	True	Succinate transport in via proton symport_c0	-1000.0	1000.0	cpd00036[e0] + cpd00067[e0] <=> cpd00036[c0] + cpd00067[c0]	TX73_RS12660 or TX73_RS02860
+succinate_condition	rxn00285_c0	True	Succinate:CoA ligase (ADP-forming)_c0	-1000.0	1000.0	cpd00002[c0] + cpd00010[c0] + cpd00036[c0] <=> cpd00008[c0] + cpd00009[c0] + cpd00078[c0]	TX73_RS00985 and TX73_RS00990
+succinate_condition	rxn00288_c0	True	Succinate:(acceptor) oxidoreductase_c0	-1000.0	1000.0	cpd00015[c0] + cpd00036[c0] <=> cpd00106[c0] + cpd00982[c0]	TX73_RS01130 and TX73_RS01135
+succinate_condition	rxn00336_c0	True	isocitrate glyoxylate-lyase (succinate-forming)_c0	0.0	1000.0	cpd00260[c0] --> cpd00036[c0] + cpd00040[c0]	TX73_RS22775
+butyrate_condition	EX_cpd00211_e0	True	Exchange for Butyrate_e0	0.0	1000.0	cpd00211[e0] --> 	
+butyrate_condition	rxn05683_c0	True	Butyrate transport via proton symport, reversible_c0	-1000.0	1000.0	cpd00067[e0] + cpd00211[e0] <=> cpd00067[c0] + cpd00211[c0]	
+butyrate_condition	rxn15455_c0	True	n (R)-3-Hydroxybutanoyl-CoA <-> Poly-beta-hydroxybutyrate + n CoA	-1000.0	1000.0	cpd02234[c0] <=> cpd00010[c0] + cpd12836[c0]	TX73_RS12925 or TX73_RS21985
+fumarate_condition	EX_cpd00106_e0	True	Exchange for Fumarate_e0	0.0	100.0	cpd00106[e0] --> 	
+fumarate_condition	rxn05561_c0	True	fumarate transport via proton symport_c0	-1000.0	1000.0	cpd00067[e0] + cpd00106[e0] <=> cpd00067[c0] + cpd00106[c0]	TX73_RS12660 or TX73_RS02860
+fumarate_condition	rxn00799_c0	True	(S)-malate hydro-lyase (fumarate-forming)_c0	-1000.0	1000.0	cpd00130[c0] <=> cpd00001[c0] + cpd00106[c0]	TX73_RS18130 or TX73_RS06820 or TX73_RS20085
+ferredoxin_redox	rxn13974_c0	True	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	-1000.0	1000.0	cpd00011[c0] + cpd00022[c0] + cpd00067[c0] + 2.0 cpd11620[c0] <=> cpd00010[c0] + cpd00020[c0] + 2.0 cpd11621[c0]	
+ferredoxin_redox	rxn14048_c0	True	2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)_c0	-1000.0	1000.0	cpd00011[c0] + cpd00067[c0] + cpd00078[c0] + 2.0 cpd11620[c0] <=> cpd00010[c0] + cpd00024[c0] + 2.0 cpd11621[c0]	TX73_RS06305 and TX73_RS06295 and TX73_RS06290 and TX73_RS06300
+ferredoxin_redox	rxn05759_c0	True	hydrogen:ferredoxin oxidoreductase_c0	-1000.0	1000.0	2.0 cpd00067[c0] + 2.0 cpd11620[c0] <=> 2.0 cpd11621[c0] + cpd11640[c0]	
+ferredoxin_redox	rxn14159_c0	True	Ferredoxin:NADP+ oxidoreductase_c0	-1000.0	0.0	cpd00006[c0] + cpd00067[c0] + 2.0 cpd11620[c0] <-- cpd00005[c0] + 2.0 cpd11621[c0]	TX73_RS08105
+ferredoxin_redox	rxn06874_c0	True	reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)_c0	0.0	1000.0	16.0 cpd00001[c0] + 16.0 cpd00002[c0] + cpd00528[c0] + 8.0 cpd11620[c0] --> 16.0 cpd00008[c0] + 16.0 cpd00009[c0] + 2.0 cpd00013[c0] + 6.0 cpd00067[c0] + 8.0 cpd11621[c0] + cpd11640[c0]	(TX73_RS23995 and TX73_RS23990 and TX73_RS23985) or (TX73_RS07065 and TX73_RS07075 and TX73_RS07085) or (TX73_RS07385 and TX73_RS07380 and TX73_RS07370)
+PHB	rxn15455_c0	True	n (R)-3-Hydroxybutanoyl-CoA <-> Poly-beta-hydroxybutyrate + n CoA	-1000.0	1000.0	cpd02234[c0] <=> cpd00010[c0] + cpd12836[c0]	TX73_RS12925 or TX73_RS21985

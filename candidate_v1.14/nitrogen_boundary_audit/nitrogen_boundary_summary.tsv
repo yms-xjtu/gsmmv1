@@ -1,0 +1,2 @@
+check	value	interpretation
+n2_exchange_present	False	If false, nitrogen-fixing/H2 validation requires a curated N2 supply boundary before forcing nitrogenase.

@@ -1,0 +1,5 @@
+condition	exchange	uptake_lb	status	objective_value	note
+acetate_baseline_bound	EX_cpd00029_e0	-1.96	optimal	0.0	diagnostic condition; not a hard literature reproduction
+succinate_me_uptake	EX_cpd00036_e0	-4.66	optimal	0.0	diagnostic condition; not a hard literature reproduction
+butyrate_me_uptake	EX_cpd00211_e0	-3.69	optimal	0.0	diagnostic condition; not a hard literature reproduction
+fumarate_h2_panel	EX_cpd00106_e0	-4.66	optimal	0.0	diagnostic condition; not a hard literature reproduction

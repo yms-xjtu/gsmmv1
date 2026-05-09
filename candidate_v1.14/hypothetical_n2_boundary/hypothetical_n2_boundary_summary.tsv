@@ -1,0 +1,9 @@
+carbon	n2_boundary	nitrogenase_min	status	objective_value	h2_flux	nitrogenase_flux	n2_boundary_flux
+acetate	False	0.01	infeasible	0.0			
+acetate	True	0.01	optimal	7.010035097041802	0.0	0.01	-0.01
+succinate	False	0.01	infeasible	0.0			
+succinate	True	0.01	optimal	7.102527613829138	0.0	0.01	-0.01
+butyrate	False	0.01	infeasible	0.0			
+butyrate	True	0.01	optimal	7.576291276433535	0.0	0.01	-0.01
+fumarate	False	0.01	infeasible	0.0			
+fumarate	True	0.01	optimal	6.919929254122041	0.0	0.01	-0.01

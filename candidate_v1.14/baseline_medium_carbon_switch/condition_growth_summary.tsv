@@ -1,0 +1,6 @@
+condition	exchange	uptake_lb	status	objective_value	note
+baseline_unchanged			optimal	10.545509652968153	baseline exchange bounds preserved except known carbon-source switch
+acetate_current	EX_cpd00029_e0	-1.96	optimal	7.012417318145615	baseline exchange bounds preserved except known carbon-source switch
+succinate_me	EX_cpd00036_e0	-4.66	optimal	7.104909834918733	baseline exchange bounds preserved except known carbon-source switch
+butyrate_me	EX_cpd00211_e0	-3.69	optimal	7.578673497523046	baseline exchange bounds preserved except known carbon-source switch
+fumarate_panel	EX_cpd00106_e0	-4.66	optimal	6.922311475211994	baseline exchange bounds preserved except known carbon-source switch

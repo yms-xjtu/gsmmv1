@@ -1,0 +1,11 @@
+model	condition	status	objective_value	n2_exchange_present	n2_default_lb
+baseline_v1.13	baseline_unchanged	optimal	10.545509652968153	False	
+baseline_v1.13	acetate	optimal	7.012417318145626	False	
+baseline_v1.13	succinate	optimal	7.10490983491866	False	
+baseline_v1.13	butyrate	optimal	7.578673497522972	False	
+baseline_v1.13	fumarate	optimal	6.922311475211926	False	
+candidate_n2_closed	baseline_unchanged	optimal	10.545509652968292	True	0.0
+candidate_n2_closed	acetate	optimal	7.0124173181456	True	0.0
+candidate_n2_closed	succinate	optimal	7.1049098349186455	True	0.0
+candidate_n2_closed	butyrate	optimal	7.578673497522937	True	0.0
+candidate_n2_closed	fumarate	optimal	6.922311475211909	True	0.0
