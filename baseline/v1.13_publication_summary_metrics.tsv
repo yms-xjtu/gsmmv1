@@ -1,0 +1,10 @@
+metric	value
+reaction_count	1021
+metabolite_count	979
+custom_quality_score	96.22
+phenotype_expected_design_pass_rate	1.000
+balanced_checkable_reactions	808
+unbalanced_checkable_reactions	20
+phb_max_flux_acetate	52.0355
+h2_flux_at_phb_max	0
+phaB_to_phaA_flux_ratio	15.411

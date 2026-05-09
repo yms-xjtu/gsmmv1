@@ -1,0 +1,48 @@
+reaction_id	reaction_name	mass_imbalance	charge_imbalance
+rxn03396_c0	R04989_c0		2
+rxn05947_c0	L-proline:(acceptor) oxidoreductase_c0	-3 H, -1 N, -1 R, -1 FULLR	-1
+rxn06061_c0	Spermidine:(acceptor) oxidoreductase	-2 H, -1 N, -1 R, -1 FULLR	0
+rxn05927_c0	biotin synthase_c0		-2
+rxn06436_c0	L-Glutamate:tRNA(Gln) ligase (AMP-forming)_c0	14 H, 10 C, 13 O, 2 P, 1 R, 1 FULLR	-3
+rxn06437_c0	L-Glutamine:tRNA(Gln) ligase (AMP-forming)_c0	15 H, 10 C, 13 O, 2 P, 1 R, 1 FULLR	-2
+rxn11651_c0	benzoyl-CoA:acceptor oxidoreductase_c0	2 H, 1 N, 1 R, 1 FULLR	0
+rxn06167_c0	cyclohexa-1,5-diene-1-carbonyl-CoA:ferredoxin oxidoreductase (aromatizing, ATP-forming)_c0	1 N, 1 R, 1 FULLR	-2
+rxn06938_c0	glutaryl-CoA:(acceptor) 2,3-oxidoreductase (non-decarboxylating)_c0	-2 H, -1 N, -1 R, -1 FULLR	0
+rxn16112_c0	R09252_c0		-2
+rxn15455_c0	n (R)-3-Hydroxybutanoyl-CoA <-> Poly-beta-hydroxybutyrate + n CoA	2 R, 2 FULLR	0
+rxn07189_c0	arbon-monoxide,water:ferredoxin oxidoreductase_c0		1
+rxn07625_c0	R07834_c0	1 O	2
+rxn06926_c0	reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing)_c0		-1
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)_c0	6 H, 5 C, 3 O, 1 N	-1
+rxn00687_c0	Tetrahydrofolate_NADP__oxidoreductase_c0		2
+rxn00664_c0	R00915_c0	-4 H, 4 C, 2 O	-2
+rxn00685_c0	bifunctional dihydrofolate reductase-thymidylate synthase 1 / DHFR-TS (THY-1)_c0		2
+rxn06718_c0	[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol polysaccharidetransferase_c0	153 H, 95 C, 28 O, 2 P, 8 N	-3
+rxn02959_c0	S-adenosyl-L-methionine:magnesium-protoporphyrin-IX O-methyltransferase_c0		1
+rxn04154_c0	magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH:oxygen oxidoreductase (hydroxylating)_c0	1 H	0
+rxn04158_c0	R06271_c0		-2
+rxn04160_c0	ATP-dependent ferredoxin:protochlorophyllide-a 7,8-oxidoreductase_c0		-2
+rxn14270_c0	S-adenosyl-L-methionine:cobalt-factor-II C20-methyltransferase_c0	3 H	1
+rxn15925_c0	R09055_c0		2
+rxn15926_c0	R09056_c0		2
+rxn11942_c0	oxidized magnesium-protoporphyrin IX 13-monomethyl ester:NAD+ oxidoreductase_c0	1 H	0
+rxn15930_c0	3-hydroxyethylbacteriochlorophyllide-a:ferredoxin oxidoreductase_c0		-1
+rxn07588_c0	R07774_c0	1 H, -1 C, -2 O	1
+rxn07589_c0	S-adenosyl-L-methionine:precorrin-7 C15-methyltransferase (C-12-decarboxylating)_c0	-1 H, 1 C, 2 O	-1
+rxn06165_c0	ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase_c0	1 H, 2 R, 2 FULLR	1
+rxn06049_c0	1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase_c0	-2 R, -2 FULLR	0
+rxn07204_c0	alkanesulfonate, reduced-FMN:oxygen oxidoreductase_c0	-2 C, 1 O, 1 S	0
+bio1	biomass reaction_LN	-6 R, -6 FULLR	0
+biomass_pro_c0	Protein biomass pseudo-reaction_c0	-48 H, -27 C, -11 O, -1 P, 0 S, -7 N, 0 R, 0 FULLR	-4.22273132
+biomass_rna_c0	RNA biomass pseudo-reaction_c0	-2 H, -2 C, -1 O, 0 P, -1 N, 0 R, 0 FULLR	5.55111512312578e-17
+biomass_dna_c0	DNA biomass pseudo-reaction_c0	-1 H, -1 C, 0 O, 0 P, 0 N, 0 R, 0 FULLR	3.00000000022504e-07
+biomass_lipidLN_c0	Lipid_LN biomass pseudo-reaction_c0	-9 H, -4 C, -1 O, 0 P, 0 N, 0 R, 0 FULLR	0.043568
+biomass_lps_c0	LPS biomass pseudo-reaction_c0	-1274 H, -781 C, -599 O, 2 P, -32 N	-8
+biomass_storage_c0	storage biomass pseudo-reaction_c0	-5 H, -3 C, -2 O, 0 R, 0 FULLR	0
+biomass_cellwall_c0	cellwall biomass pseudo-reaction_c0	-4 H, -2 C, -1 O, 0 P, 0 N, 1 R, 1 FULLR	0.1066862
+biomass_pigment_c0	pigment biomass pseudo-reaction_c0	0 H, 0 C, 0 O, 0 N, 0 Mg, 1 R, 1 FULLR	-0.001207
+biomass_cofactor_c0	cofactor biomass pseudo-reaction_c0	-1 H, 0 C, 0 O, 0 P, 0 S, 0 N, 0 Fe, 1 R, 1 FULLR	0.02648035
+biomass_ions_c0	ions biomass pseudo-reaction_c0	0 H, 0 O, 0 S, 0 N, 0 Mg, 0 Fe, 0 Zn, 0 Co, 0 Ca, 0 Cl, 0 K, 1 R, 1 FULLR	-0.705618
+biomass_gam_c0	GAM biomass pseudo-reaction_c0	-11 H, 0 C, -6 O, 0 P, 0 N, 1 R, 1 FULLR	0.0899999999999963
+bio2	biomass reaction_DA	-6 R, -6 FULLR	0
+biomass_lipidDA_c0	Lipid_DA biomass pseudo-reaction_c0	-9 H, -5 C, -1 O, 0 P, 0 N, 0 R, 0 FULLR	0.043568
