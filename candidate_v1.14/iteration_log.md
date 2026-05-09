@@ -38,3 +38,19 @@ Continued work after the first evidence gate:
 Current decision:
 
 The N2 boundary is a low-risk candidate edit but is not yet accepted as final. Continue with candidate MEMOTE/COBRA checks and condition-specific nitrogen-fixing/H2 validation.
+
+## Cycle 9 Summary
+
+Ran lightweight Python/COBRA QC comparing v1.13 and the candidate N2-boundary model.
+
+Result:
+
+- Candidate adds exactly one reaction: `EX_cpd00528_c0`.
+- No metabolite or gene count changes.
+- Missing formulas and charges remain zero.
+- FBA objective is unchanged to numerical tolerance.
+- Internal checkable imbalances remain unchanged.
+
+Decision:
+
+Advance the N2 boundary candidate to MEMOTE/phenotype regression. Do not finalize until those checks pass.

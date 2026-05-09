@@ -1,0 +1,3 @@
+model	reaction_count	metabolite_count	gene_count	missing_formula_metabolites	missing_charge_metabolites	fba_status	fba_objective	imbalanced_internal_checkable_reactions
+baseline_v1.13	1021	979	685	0	0	optimal	10.545509652968153	33
+candidate_n2_boundary	1022	979	685	0	0	optimal	10.545509652968292	33
