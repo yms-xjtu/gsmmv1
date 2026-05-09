@@ -21,6 +21,7 @@ Read first:
 3. `evidence/LITERATURE_READING_PROTOCOL.md`
 4. `evidence/phenotype_data_requirements.tsv`
 5. `skills/cga009-top-journal-modeling/references/top_journal_strategy.md`
+6. `next_agent/MEMORY_RESTORE_AFTER_CLEAR.md`
 
 Mission:
 
@@ -79,3 +80,11 @@ Publication-ready acceptance gates:
 8. A manuscript-style validation narrative can defend the model against reviewer questions about overfitting, thermodynamic infeasibility, enzyme-capacity realism, and strain-specific evidence.
 
 If these gates are not met, keep iterating.
+
+Current state after the latest autonomous iteration:
+
+- Candidate v1.14 adds a default-closed N2 boundary (`EX_cpd00528_c0`) and remains a defensible low-risk candidate, but it is not publication-ready.
+- Python phenotype regression passes for both v1.13 and candidate v1.14: 16/16 expected-design checks.
+- MEMOTE pass/fail counts are unchanged between v1.13 and candidate v1.14, but both models still have low absolute MEMOTE quality.
+- Strict nitrogen-source validation exposed a larger bottleneck: ammonium-only acetate growth is zero and methionine/cysteine/homocysteine production is blocked under strict ammonium-acetate conditions.
+- The next iteration must focus on sulfur assimilation, cysteine/H2S production, and methionine biosynthesis rather than simply adding more exchanges.
